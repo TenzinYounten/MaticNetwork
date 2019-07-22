@@ -5,4 +5,12 @@ class MainPresenter {
     public MainPresenter(MainView mainView) {
         this.mainView = mainView;
     }
+
+    public void onSignUp() {
+        mainView.doSignUp();
+    }
+
+    public void onLogin() {
+        mainView.doLogin();
+    }
 }
